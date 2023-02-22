@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Modelos</title>
+</head>
+<body>
+    <header>
+        <section>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="cadastro-marca.html">Marca</a></li>
+                <li><a href="#">Modelo</a></li>
+                <li><a href="cadastro-veiculo.html">Veículo</a></li>
+            </ul>
+        </nav>
+    </section>
+    </header>
+    
+    <main>
+        <section>
+            <article>
+                <h1>Cadastro de Modelos</h1>
+                
+                <label>Nome Do Modelo:</label><br>
+                <input type="text" name="nomeModelo"><br><br>
+                <label>Marcas:</label><br>
+                    <select id="cbxMarcas" required="required" name="nomeMarca">
+                        <option value="">--Selecione--</option>
+                        <option value="Jeep">Jeep</option>
+                        <option value="Fiat">Fiat</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Reanult">Renault</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Honda">Honda</option>
+                    </select>
+
+                <button type="submit" onclick="adicionarModelo()">adicionar</button>
+                <button onclick="limparListagem()">limpar</button>
+                
+
+                <h1>Listado de Modelos</h1>
+                <section class="section-listagem">
+                  
+                </section>
+
+            </article>
+        </section>
+    </main>
+    
+    <script src="../js/cadastro-modelo.js"></script>
+
+
+</body>
+</html>

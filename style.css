@@ -1,0 +1,99 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container {
+    height: 510px;
+    width: 25%;
+    box-shadow: 0 0 7px #111;
+    margin: 50px 30px;
+}
+
+.container .card {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+
+.card img {
+    margin: auto;
+    display: block;  
+}
+
+.container .ford-focus img {
+    height: 330px;
+    width: 330px;
+}
+
+.container .ford-focus {
+    background-color: #111;
+}
+
+.container .ford-mustang img {
+    height: 330px;
+    width: 330px;
+}
+
+.container .ford-mustang {
+    background-color: #6A0C0B;
+}
+
+.container .mercedes-benz img {
+    height: 330px;
+    width: 330px;
+}
+
+.container .mercedes-benz {
+    background-color: #B11313;
+}
+
+.information {
+    height: 80px;
+    width: 100%;
+}
+
+.information h1 {
+    font-family: sans-serif;
+    font-size: 1.2em;
+    text-align: center;
+    color: #333;
+    margin-bottom: -10px;
+}
+
+.information p {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: .9em;
+    color: #555;
+}
+
+.precio {
+    height: 50px;
+    width: 85%;
+    margin: auto;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-preco {
+    width: 80px;
+}
+
+.preco1 {
+    color: red;
+    font-size: .8em;
+}
+
+.preco .preco2 {
+    font-size: 1.5em;;
+}
+
+.shopping {
+    font-size: 1.5em;
+    color: #555;
+}
